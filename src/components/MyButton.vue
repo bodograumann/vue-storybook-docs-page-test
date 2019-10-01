@@ -1,5 +1,5 @@
 <template>
-  <button class="button is-primary" @click="onClick">
+  <button class="button" :class="{ 'is-primary': primary }" @click="onClick">
     <slot></slot>
   </button>
 </template>
@@ -7,6 +7,10 @@
 <script>
 export default {
   name: 'my-button',
+
+  props: {
+    primary: Boolean
+  },
 
   methods: {
     onClick() {
