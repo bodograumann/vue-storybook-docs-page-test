@@ -32,6 +32,6 @@ button {
 }
 </style>
 
-<docs>
+<custom>
 ### Examples ###
-</docs>
+</custom>
