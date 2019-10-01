@@ -31,3 +31,7 @@ button {
   margin: 10px;
 }
 </style>
+
+<docs>
+### Examples ###
+</docs>
